@@ -39,6 +39,22 @@ function Feed() {
          avatar={post.avatar}
    
          />
+
+        
+        )}
+
+{posts.map(post => 
+         <Post 
+         displayName={post.displayName}
+         username={post.username} 
+         verified={post.verified}
+         text={post.text}
+         image={post.image}
+         avatar={post.avatar}
+   
+         />
+
+        
         )}
      
      
