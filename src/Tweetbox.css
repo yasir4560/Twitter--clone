@@ -19,11 +19,13 @@
     margin-left: 20px;
     font-size: 20px;
     border: none;
+    outline: none;
 }
 
 .tweetbox_post_image{
     border: none;
     padding: 10px;
+    outline: none;
 }
 
 .feed_tweet_btn{
