@@ -4,6 +4,9 @@
     min-width: fit-content;
     overflow-y: scroll;
 }
+.feed{
+    max-width: 40%;
+}
  /* hide scrollbar for chrome safari and opera */
 .feed::-webkit-scrollbar {
     display: none;

@@ -19,7 +19,7 @@ function Tweetbox() {
        }
     dataBase.collection('posts').add({
       displayName: "Yasir",
-      userName: "syedyasir",
+      username: "syedyasir",
       verified: true,
       text: tweetMessage,
       image: tweetImage,
